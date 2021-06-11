@@ -28,6 +28,6 @@ class Config:
     lrate = 0.005
 
     ## Model save/load paths
-    best_model_path = "testmodel"
-    model_path = "testmodel_last"
+    best_model_path = "testmodel.pth"
+    model_path = "testmodel_last.pth"
 
