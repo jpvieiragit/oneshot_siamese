@@ -134,9 +134,9 @@ if __name__ == "__main__":
         "zara"
     ]
 
-    openlogo_path = "/home/mmv/Documents/3.datasets/openlogo/"
-    train_dir = "/home/mmv/Documents/3.datasets/openlogo/test_split/train/"
-    test_dir = "/home/mmv/Documents/3.datasets/openlogo/test_split/test/"
+    openlogo_path = "/workspace/datasets/openlogo/"
+    train_dir = "/workspace/datasets/openlogo/test_split/train/"
+    test_dir = "/workspace/datasets/openlogo/test_split/test/"
     annotations_directory = openlogo_path + "Annotations/"
     dataset_directory = openlogo_path + "JPEGImages/"
 

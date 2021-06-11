@@ -2,8 +2,8 @@
 class Config:
     """ Exec parameters """
     ## Dataset dirs
-    training_dir = "path to train dataset"
-    testing_dir = "path to test dataset"
+    training_dir = "/workspace/datasets/openlogo/test_split/train/"
+    testing_dir = "/workspace/datasets/openlogo/test_split/test/"
 
     # Alexnet 224,224 following pytorch doc
     im_w = 224
