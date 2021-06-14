@@ -23,7 +23,7 @@ class Config:
     distanceLayer = True  # defines if the last layer uses a distance metric or a neuron output
     bceLoss = True  # If true uses Binary cross entropy. Else: contrastive loss
 
-    train_batch_size = 256
+    train_batch_size = 16
     train_number_epochs = 200
     lrate = 0.005
 
