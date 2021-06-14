@@ -24,8 +24,8 @@ class Config:
     bceLoss = True  # If true uses Binary cross entropy. Else: contrastive loss
 
     train_batch_size = 32
-    train_number_epochs = 200
-    lrate = 0.005
+    train_number_epochs = 400
+    lrate = 0.001
 
     ## Model save/load paths
     best_model_path = "testmodel.pth"
