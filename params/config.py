@@ -10,11 +10,11 @@ class Config:
     im_h = 224
 
     ## Model params
-    # model = "alexnet"
+    model = "alexnet"
     #model = "resnet"
     #model = "dense"
     # model = "inception"
-    model = "vgg"
+    # model = "vgg"
     #model = "squeeze"
     #model = "koch"
     #model = "tests"
@@ -25,7 +25,7 @@ class Config:
 
     train_batch_size = 32
     train_number_epochs = 200
-    lrate = 0.005
+    lrate = 0.0001
 
     ## Model save/load paths
     best_model_path = "testmodel.pth"
