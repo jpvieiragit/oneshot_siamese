@@ -6,14 +6,14 @@ class Config:
     testing_dir = "../datasets/openlogo/test_split/test/"
 
     # Alexnet 224,224 following pytorch doc
-    im_w = 224
-    im_h = 224
+    im_w = 299
+    im_h = 299
 
     ## Model params
-    model = "alexnet"
+    # model = "alexnet"
     #model = "resnet"
     #model = "dense"
-    #model = "inception"
+    model = "inception"
     #model = "vgg"
     #model = "squeeze"
     #model = "koch"
@@ -24,8 +24,8 @@ class Config:
     bceLoss = True  # If true uses Binary cross entropy. Else: contrastive loss
 
     train_batch_size = 32
-    train_number_epochs = 400
-    lrate = 0.0001
+    train_number_epochs = 200
+    lrate = 0.005
 
     ## Model save/load paths
     best_model_path = "testmodel.pth"
