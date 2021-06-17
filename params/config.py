@@ -2,8 +2,8 @@
 class Config:
     """ Exec parameters """
     ## Dataset dirs
-    training_dir = "../datasets/openlogo/test_split/train/"
-    testing_dir = "../datasets/openlogo/test_split/test/"
+    training_dir = "datasets/openlogo/test_split/train/"
+    testing_dir = "datasets/openlogo/test_split/test/"
 
     # Alexnet 224,224 following pytorch doc
     im_w = 224
@@ -25,7 +25,7 @@ class Config:
 
     train_batch_size = 32
     train_number_epochs = 200
-    lrate = 0.0001
+    lrate = 0.005
 
     ## Model save/load paths
     best_model_path = "testmodel.pth"
